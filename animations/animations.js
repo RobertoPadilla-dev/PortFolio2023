@@ -47,7 +47,7 @@ const firstCardWidth = carousel.querySelector(".card").offsetWidth;
 const arrowsBtns = document.querySelectorAll(".wrapper .arrow");
 arrowsBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id === "leftt" ? + firstCardWidth : firstCardWidth;
+        carousel.scrollLeft -= btn.id === "leftt" ? - firstCardWidth : firstCardWidth;
     })
 })
 
