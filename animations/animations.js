@@ -1,4 +1,4 @@
-const texts = ["Exploring the frontiers of computational science and front-end development...",
+const texts = ["Exploring the frontiers of front-end development...",
     "Building the bridge between creativity."];
 const typedTextElement = document.getElementById("typewriter");
 
